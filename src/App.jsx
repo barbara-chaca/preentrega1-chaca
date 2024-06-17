@@ -6,11 +6,7 @@ function App() {
     <div>
       <Navbar />
 
-      <ItemListContainer
-        greeting={
-          "Hola humano, ¿listo para ver las mejores piezas de cerámica?"
-        }
-      />
+      <ItemListContainer />
     </div>
   );
 }

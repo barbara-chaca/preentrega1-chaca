@@ -1,9 +1,10 @@
-export const ProductCard = ({ title, description, price }) => {
+export const ProductCard = ({ title, price, img, categorie }) => {
   return (
-    <div style={{ border: "2px solid steelblue" }}>
-      <h2> {title} </h2>
-      <h3> {description} </h3>
-      <h4> {price} </h4>
+    <div>
+      <h1> {title} </h1>
+      <div> {img} </div>
+      <h2> {price} </h2>
+      <h3> {categorie} </h3>
     </div>
   );
 };

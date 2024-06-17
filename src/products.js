@@ -1,0 +1,58 @@
+export let products = [
+  {
+    id: "tazón",
+    title: "Tazón y Platito Verbena",
+    price: "$ 12.500",
+    img: "https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/taza_wnxbaj.jpg",
+    categorie: "vajilla",
+  },
+  {
+    id: "plato",
+    title: "Plato Ficus por unidad",
+    price: "$ 7.000",
+    img: "https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/plato_imlm56.jpg",
+    categorie: "vajilla",
+  },
+  {
+    id: "bowl",
+    title: "Bowl Loto",
+    price: "$ 6.000",
+    img: "https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/bowl_hzk30h.jpg",
+    categorie: "vajilla",
+  },
+  {
+    id: "florero",
+    title: "Florero Monstera",
+    price: "$ 5.000",
+    img: "https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/florero_nfhwxs.jpg",
+    categorie: "decoración",
+  },
+  {
+    id: "maceta",
+    title: "Maceta Calathea",
+    price: "$ 14.000",
+    img: "https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/maceta_ayqzok.jpg",
+    categorie: "decoración",
+  },
+  {
+    id: "jarra",
+    title: "Jarra Acasia",
+    price: "$ 10.500",
+    img: "https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/jarra_gwve0m.jpg",
+    categorie: "vajilla",
+  },
+  {
+    id: "porta cuchara",
+    title: "Porta Cuchara Peruviana",
+    price: "$ 5.500",
+    img: "https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/apoya_cuchara_wcjyji.jpg",
+    categorie: "decoración",
+  },
+  {
+    id: "alhajero",
+    title: "Alhajero Cactus",
+    price: "$ 5.500",
+    img: "https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/alhajero_ngn5m8.jpg",
+    categorie: "decoración",
+  },
+];
