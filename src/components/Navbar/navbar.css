@@ -3,12 +3,10 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+
 }
 
-img {
-  width: 14%;
-  padding-left: 2%;
-}
+
 
 li {
   list-style-type: none;

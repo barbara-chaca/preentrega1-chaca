@@ -1,11 +1,11 @@
-import "./itemListContainer.css";
+import "./itemList.css";
 import { products } from "../../products";
 import { ItemList } from "./ItemList";
 import { useState, useEffect } from "react";
 
 export const ItemListContainer = () => {
   // una peticion que me traiga los productos del backend
-
+  
   const [items, setItems] = useState([]);
   const [error, setError] = useState({});
 
