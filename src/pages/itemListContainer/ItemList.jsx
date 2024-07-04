@@ -1,4 +1,3 @@
-import { products } from "../../products";
 import { ProductCard } from "../../components/productCard/ProductCard";
 import "./itemList.css";
 
@@ -13,7 +12,7 @@ export const ItemList = ({ items }) => {
             title={element.title}
             price={element.price}
             img={element.img}
-            categorie={element.categorie}
+            category={element.category}
             id={element.id}
           />
         );

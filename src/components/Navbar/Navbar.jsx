@@ -10,14 +10,13 @@ export const Navbar = () => {
       <>      
         <div className="navbarContainer">
           <Link to="/">
-            <img src="https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/logo_ht7188.png" />
-          </Link>
-          
+            <img className="logo" src="https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/logo_ht7188.png" />
+          </Link>                         
 
           <div className="categories">
             <ul>
-              <li> VAJILLA </li>
-              <li> DECORACIÓN </li>
+              <Link to="/category/Vajilla"> VAJILLA </Link>
+              <Link to="/category/Decoración"> DECORACIÓN </Link>
             </ul>
           </div>
           <CartWidget />

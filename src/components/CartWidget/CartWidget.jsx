@@ -8,8 +8,8 @@ export const CartWidget = () => {
   return (
     <Link to="/cart">
       <div className="cart"> 
-        <Badge badgeContent={1} color="secondary" showZero={true}>
-          <ShoppingCartIcon color="ablack" />
+        <Badge badgeContent={0} color="secondary" showZero={true}>
+          <ShoppingCartIcon />
         </Badge>
       </div>        
     </Link>
