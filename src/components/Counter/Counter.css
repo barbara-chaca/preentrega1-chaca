@@ -1,0 +1,17 @@
+.boton {
+    background-color: rgba(221, 204, 182, 255);
+    border: 1px solid rgb(201, 176, 147);
+    padding: 0.4rem;
+    margin: 2rem;
+    font-size: 20px;
+    width: 40px;
+    font-weight: bold;
+       
+}
+
+button:hover {
+    background-color: rgba(201, 176, 147, 255); 
+    border-color: rgba(180, 150, 120, 255); 
+}
+
+

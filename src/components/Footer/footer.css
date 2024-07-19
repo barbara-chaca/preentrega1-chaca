@@ -1,5 +1,21 @@
 .footerContainer {
     background-color: #A9B388;
-    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.instagramLogo {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem; 
+    margin-right: 10px; 
+}
 
+.instagramSite {
+    font-family: 'Arial', sans-serif; 
+    font-size: 1rem; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }

@@ -25,12 +25,20 @@ export const ProductCard = ({ title, description, price, img, id }) => {
           {description}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {price}
+          <p> $ {price} </p>
         </Typography>
       </CardContent>
       <CardActions>
         <Link to={`/itemDetail/${id}`}>
-          <Button size="small" variant="outlined">
+          <Button size="small" variant="outlined" sx={{
+                backgroundColor: '#A9B388',
+                color: 'black',
+                borderColor: '#A9B388',
+                '&:hover': {
+                  backgroundColor: '#99a576',
+                  borderColor: '#99a576'
+                }
+              }}>
             Ver más
           </Button>
         </Link>

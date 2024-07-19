@@ -1,19 +1,25 @@
 .navbarContainer {
   background-color: rgba(221, 204, 182, 255);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  
 }
 
 .logo {
-  width: 70%;
-  padding-left: 5%;
+  width: 60%;
 }
 
 .categories {
-  list-style-type: none;
-  padding-bottom: 10%;
-  padding-top: 2%;
-  font-weight: bold;
-  font-size: larger;
-  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+  font-family: 'Arial', sans-serif;
 }
+
+.categories a {
+  text-decoration: none;
+  font-size: larger;
+  color: #1d1c1c;
+}
+
