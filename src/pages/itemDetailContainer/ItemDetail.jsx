@@ -11,6 +11,7 @@ export const ItemDetail = ({ item, onAdd, initial }) => {
         <div className="detailItems">
           <h1>{item.title}</h1>
           <h2>$ {item.price}</h2>
+          <h3> {item.description} </h3>
           <div className="counterContainer">
             <CounterContainer onAdd={onAdd} stock={item.stock} initial={initial} />
           </div>

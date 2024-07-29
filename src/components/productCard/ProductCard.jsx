@@ -30,15 +30,19 @@ export const ProductCard = ({ title, description, price, img, id }) => {
       </CardContent>
       <CardActions>
         <Link to={`/itemDetail/${id}`}>
-          <Button size="small" variant="outlined" sx={{
-                backgroundColor: '#A9B388',
-                color: 'black',
-                borderColor: '#A9B388',
-                '&:hover': {
-                  backgroundColor: '#99a576',
-                  borderColor: '#99a576'
-                }
-              }}>
+          <Button
+            size="small"
+            variant="outlined"
+            sx={{
+              backgroundColor: "#A9B388",
+              color: "black",
+              borderColor: "#A9B388",
+              "&:hover": {
+                backgroundColor: "#99a576",
+                borderColor: "#99a576",
+              },
+            }}
+          >
             Ver más
           </Button>
         </Link>

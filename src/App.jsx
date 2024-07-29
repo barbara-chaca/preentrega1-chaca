@@ -6,7 +6,6 @@ import { ItemDetailContainer } from "./pages/itemDetailContainer/ItemDetailConta
 import { Checkout } from "./pages/checkout/Checkout";
 import { CartContextProvider } from "./context/CartContext";
 
-
 function App() {
   return (
     <BrowserRouter>
