@@ -25,7 +25,7 @@ export const ProductCard = ({ title, description, price, img, id }) => {
           {description}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          <p> $ {price} </p>
+          $ {price}
         </Typography>
       </CardContent>
       <CardActions>
