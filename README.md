@@ -1,4 +1,4 @@
-![https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/logo_ht7188.png]
+![Logo de CERAMISÚ](https://res.cloudinary.com/dbo7c3awi/image/upload/v1718601823/logo_ht7188.png)
 
 # CERAMISÚ
 
@@ -23,5 +23,13 @@ Para correr este proyecto en tu máquina local, sigue estos pasos:
    ```
    git clone https://github.com/tu-usuario/ceramisu.git
    ```
+2. Navega al directorio del proyecto:
+cd ceramisú
 
-2. Cualquier consulta comunicate con barbi.chaca@gmail.com
+3. Instala las dependencias:
+npm install
+
+4. Ejecuta el proyecto:
+npm start
+
+Cualquier consulta comunicate con barbi.chaca@gmail.com
